@@ -6,3 +6,11 @@
 a {
   text-decoration: none;
 }
+
+/* ________________________________________________________ */
+
+.header__top {
+  padding-top: 63px;
+  padding-bottom: 164px;
+  background: #F4F6F9;
+}
