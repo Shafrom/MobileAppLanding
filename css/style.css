@@ -93,6 +93,63 @@ a {
   color: #FFFFFF;
 }
 
+/* _______________________________________________________________ */
+
+.experience {
+  padding-top: 133px;
+  padding-bottom: 117px;
+  background-image: url(../img/experience_back.png);
+  background-position: left bottom;
+  background-repeat: no-repeat;
+  background-size: auto 100%;
+}
+.experience__content {
+  display: flex;
+  justify-content: center;
+}
+.experience__left {
+  width: 50%;
+}
+.experience__right {
+  max-width: 480px;
+}
+.experience__toptext {
+  font-family: Lato;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  color: #00ADEE;
+  margin-bottom: 27px;
+}
+.experience__title {
+  font-family: Lato;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 28px;
+  color: #333333;
+  margin-bottom: 27px;
+}
+.experience__description {
+  font-family: Lato;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  color: #4F4F4F;
+  margin-bottom: 54px;
+}
+.experience__link {
+  font-family: Lato;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  color: #00ADEE;
+  border-bottom: 1px solid transparent;
+  transition: .5s;
+}
+.experience__link:hover {
+  border-bottom: 1px solid #00ADEE;
+}
+
 /* ____________________________________________________________ */
 
 .userInterface {
@@ -133,8 +190,12 @@ a {
   font-weight: bold;
   font-size: 16px;
   color: #00ADEE;
+  border-bottom: 1px solid transparent;
+  transition: .5s;
 }
-
+.userInterface__link:hover {
+  border-bottom: 1px solid #00ADEE;
+}
 /* ___________________________________________________________ */
 
 .usersSay {
@@ -313,8 +374,8 @@ a {
 /* _____________________________________________________________ */
 
 .footer {
-  padding-top: 50px;
-  padding-bottom: 50px;
+  padding-top: 40px;
+  padding-bottom: 40px;
   background: #00ADEE;
 }
 .footer__container {
@@ -332,6 +393,11 @@ a {
   font-size: 16px;
   color: #FFFFFF;
   margin-right: 37px;
+  border-bottom: 1px solid transparent;
+  transition: .5s;
+}
+.footer__menu-link:hover {
+  border-bottom: 1px solid #FFFFFF;
 }
 .footer__social {
   display: flex;
@@ -348,8 +414,3 @@ a {
 .social__link {
   margin-right: 17px;
 }
-/* .social__link-pic {
-  margin: auto;
-  position: absolute;
-  top: 0; left: 0; bottom: 0; right: 0;
-} */
