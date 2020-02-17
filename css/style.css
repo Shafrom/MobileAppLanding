@@ -248,3 +248,24 @@ a {
 .swiper-pagination-bullet-active {
   background-color: #828282 !important;
 }
+
+/* ____________________________________________________________ */
+
+.featuredIn {
+  padding-top: 57px;
+  padding-bottom: 82px;
+  background: #FAFAFA;
+}
+.featuredIn__title {
+  font-family: Lato;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 28px;
+  color: #333333;
+  margin-bottom: 58px;
+  text-align: center;
+}
+.featuredIn__content {
+  display: flex;
+  justify-content: space-between;
+}
